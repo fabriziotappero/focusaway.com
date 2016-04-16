@@ -2,7 +2,7 @@
 title:
 ---
 
-This is going to give you an idea about what kind of videos we are capable of making.
+This is going to give you an idea about what kind of videos Focus Away is capable of making.
 
 <iframe src="//player.vimeo.com/video/158732001?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="300" height="170" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
