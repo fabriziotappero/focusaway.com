@@ -1,0 +1,99 @@
+#-------------------------------
+# General Site Settings
+
+title: Making videos people want to watch
+description: get your message across is hard, let's do it visually and let's do it together
+email: fabrizio.tappero@gmail.com
+tel: +34 633 04 8181
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the Internet.
+
+seo:
+  description: 'Video editing, aerial videos, engineering, drones, video post-processing, Barcelona, Spain, Europe, sort movie, shoot, video, lights, moviemaking'
+  rel-author: 'https://plus.google.com/u/0/107967937093458188059/'
+  rel-publisher: 'https://plus.google.com/u/0/107967937093458188059/'
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  I am a videographer based in **Barcelona, Spain** and I
+  enjoy the art of telling a good story using videos.
+  I specialise in marketing/advertising videos and sports videos 
+  but I enjoy short-movie making and peculiar story telling just as much.\\
+
+  If you are interested in knowing more about me, have a look at my works.
+  If you are interested in contacting with
+  me for a video work, do not hesitate to shoot me an e-mail or call me.
+  I don't bite.
+
+skills:
+- {name: Good Communication skills. I speak 4 languages, value: '9'}
+- {name: Organized and reliable. Very solution-oriented person, value: '7'}
+- {name: Resourceful and very hands-on person, value: '8'}
+- {name: Video post production knowledge, value: '6'}
+- {name: Well connected with other professionals, value: '9'}
+- {name: Technically knowledgeable and artistically quite creative, value: '9'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Motorbike World Champion - Adam Raga, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: One day With Fox-Head Rider, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Luxury Homes, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Bed & Breakfast, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Music Video - Disco Fries, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Restaurant Opening, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Vimeo Video Channel, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: 2015 Snupy Show Reel, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-moreno_nicoletta.jpg',
+  name: 'Moreno Nicoletta',
+  title: 'Owner of B&B LOspitalita del Castello',
+  quote: '<p><strong>They made for us a great promotional video</strong> of our business activity. They took care of every aspect: locations, shooting, video editing and publishing. We were very pleased by their professionalism, personal touch and of course by the final work.</p>',
+  logo: 'logo_lospitalitadelcastello.png'}
+- {avatar: 'face-bruno_schiavi.jpg',
+  name: 'Bruno Schiavi',
+  title: 'Manager of onlocations.com',
+  quote: '<p><strong>They produced for us excellent video shots.</strong> We manage a large number of properties dealing with lots of customers and we need independent professionals like them. Each single work they did for us was impeccable both from the technical point of view as well as the artistic one. All our customers were very satisfied.</p>',
+  logo: 'logo_onlocations.png'}
+- {avatar: 'face-nuria_casas.jpg',
+  name: 'Nuria Casas',
+  title: 'Actress and producer',
+  quote: '<p><strong>A very technical person with an artistic side.</strong> He worked for us on the video production of a theatre play in Barcelona. I was certainly impressed by how well he got along with all crew members, to a point in which he cooked a meal for the whole crew of a one-day shooting. He is very creative and reliable at work and a good friend outside work.</p>',
+  logo: 'logo_tzsproduccions.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'film', link: 'https://vimeo.com/fabriziotappero/videos'}
+- {icon: 'googleplus', link: 'https://plus.google.com/u/0/107967937093458188059/'}
+#- {icon: 'youtube', link: 'https://www.youtube.com/user/fabrizioScreencast'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/fabriziotappero/'}
+- {icon: 'github', link: 'https://github.com/fabriziotappero'}
+
+# social network icons available are "home,camera,film,envelope,googleplus,facebook,twitter,youtube,vimeo,github,linkedin"

@@ -1,1 +1,3 @@
-this is the repository for the website focusaway.com
+www.focusaway.com website repository.
+
+Note that this repo only has the branch gh-pages
