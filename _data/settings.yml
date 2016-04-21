@@ -20,7 +20,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the Internet.
 
 seo:
-  description: 'Video editing, aerial videos, engineering, drones, video post-processing, Barcelona, Spain, Europe, sort movie, shoot, video, lights, moviemaking'
+  description: 'Video editing, aerial videos, engineering, drones, video post-processing, editing, Barcelona, Spain, Europe, short movie, video, lights, moviemaking, filmmaker'
   rel-author: 'https://plus.google.com/u/0/107967937093458188059/'
   rel-publisher: 'https://plus.google.com/u/0/107967937093458188059/'
 
@@ -52,7 +52,8 @@ skills:
 # Work Section
 
 projects:
-- {name: Motorbike World Champion - Adam Raga, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Motorbike World Champion - Adam Raga, folder: 'proj-0', file: 'work/proj-0.html'}
+- {name: Equilibrium Teaser - Adam Raga, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: One day With Fox-Head Rider, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Luxury Homes, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Bed & Breakfast, folder: 'proj-4', file: 'work/proj-4.html'}

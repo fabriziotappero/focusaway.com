@@ -2,7 +2,7 @@
 title:
 ---
 
-This is a video documentary of the incredible 6 time motorbike World champion [Adam Raga](http://adamraga.es/).
+This is the TEASER of the video documentary of the incredible 6 time motorbike World champion [Adam Raga](http://adamraga.es/).
 
 When I met Adam and saw what he could do with his bike, I told myself *"I must
 capture this in a video and show to the World"*. It took me some time and some energy but it
