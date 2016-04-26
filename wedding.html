@@ -1,0 +1,59 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+  <meta property="og:image" content="http://focusaway.com/img/focus-away.jpg" />
+
+  <title>{{ site.data.settings.title }}</title>
+
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" href="assets/css/icono.min.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+
+{% include header.html %}
+<div class="social-share ">
+  <a href="https://twitter.com/home?status=Great%20Video%20Creator%20in%20Barcelona%0Ahttp%3A//focusaway.com" class="icon-twitter"></a>
+  <a href="https://plus.google.com/share?url=http%3A//focusaway.com" class="icon-googleplus"></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//focusaway.com&title=Great%20Video%20Makers%20in%20Barcelona&summary=The%20guys%20at%20Focus%20Away%20make%20incredible%20videos!%20%0Acheck%20them%20out.&source=" class="icon-linkedin"></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//focusaway.com" class="icon-facebook"></a>
+</div>
+
+{% include work.html %}
+
+{% include about.html %}
+
+{% include clients.html %}
+
+{% include contact.html %}
+
+{% include form.html %}
+
+{% include footer.html %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script>$('.project-load').fitVids();</script>
+ <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55798699-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
