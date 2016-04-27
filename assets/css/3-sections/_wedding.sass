@@ -1,0 +1,87 @@
+
+.wedding_banner
+  background-image: url('../img/bride-banner.jpg')
+  background-size: cover
+  //margin: 0 0 auto auto
+  height: 600px
+  width: 100%
+  text-align: center
+  //display: inline-block
+  @media (max-width: 600px)
+    height: 400px
+  @media (max-width: 500px)
+    height: 300px
+
+.wedding_offer
+  font-size: 1.2em
+  .inner
+    margin: 10px auto
+    max-width: 700px
+    li
+      text-align: left
+      color: #E1C184
+      list-style-type: none
+      margin-bottom: 20px
+      svg
+        +size(28px 28px)
+        margin-left: -40px
+        margin-bottom: -8px
+        margin-right: 10px
+        path
+          fill: rgba(#E1C184, 1)
+
+  h3
+    padding: 20px 0
+
+.wedding_packages
+  font-size: 1.2em
+
+  text-align: center
+  .inner
+    max-width: 900px
+    margin: auto
+    .pk
+      width: 200px
+      @media (max-width: 500px)
+        width: 100px
+      height: 550px
+      margin: 0 auto
+      display: inline-block
+      background-color: rgba(#E1C184, 0.1)
+      h3
+        font-size: 2em
+        margin-bottom: 0
+      ul, li
+        text-transform: uppercase
+        text-align: left
+        list-style-type: none
+        font-size: 0.9em
+        padding: 0
+        margin: 2px
+      li
+        font-weight: bold
+        padding-bottom: 12px
+      li:first-child
+        margin-bottom: 30px
+        text-align: center
+        font-size: 2em
+        font-weight: bold
+        color: rgba(#E1C184, 0.5)
+
+.wedding_testimonials
+  p
+    margin: 0 0 2px 0
+  font-size: 1.2em
+  .inner
+    margin: 0 auto
+    max-width: 700px
+    text-align: center
+    .testimonial
+      color: rgba(#E1C184, 1)
+      img, .blob
+        display: inline-block
+        margin: auto
+        text-align: left
+      .blob
+        max-width: 400px
+        font-style: italic

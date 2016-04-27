@@ -2,7 +2,7 @@
 ---
 
 <!DOCTYPE html>
-<html class="">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -11,49 +11,145 @@
   <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
   <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
   <meta property="og:image" content="http://focusaway.com/img/focus-away.jpg" />
-
   <title>{{ site.data.settings.title }}</title>
-
-  <link rel="stylesheet" href="assets/css/all.css">
-  <link rel="stylesheet" href="assets/css/icono.min.css">
+  <link rel="stylesheet" href="../assets/css/all.css">
+  <link rel="stylesheet" href="../assets/css/icono.min.css">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
 </head>
 <body>
+<section class="wedding_banner">
+</section>
 
-{% include header.html %}
-<div class="social-share ">
-  <a href="https://twitter.com/home?status=Great%20Video%20Creator%20in%20Barcelona%0Ahttp%3A//focusaway.com" class="icon-twitter"></a>
-  <a href="https://plus.google.com/share?url=http%3A//focusaway.com" class="icon-googleplus"></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//focusaway.com&title=Great%20Video%20Makers%20in%20Barcelona&summary=The%20guys%20at%20Focus%20Away%20make%20incredible%20videos!%20%0Acheck%20them%20out.&source=" class="icon-linkedin"></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//focusaway.com" class="icon-facebook"></a>
-</div>
+<section class="wedding_offer">
+  <div class="inner">
+    <h3>HOW WE WORK</h3>
+    <p>We are passionate about cinematography and we make wedding videos. Here it is what makes us different from the others.</p>
+    <ul>
+      <li>
+            {% include icons/icon-film.html %} We come from the cinematography World and we are active in the documentary and short-film production business.</li>
+      <li>
+            {% include icons/icon-euro.html %}We do not use tripods but only steadycam. This allows us to be 30% faster.</li>
+      <li>
+            {% include icons/icon-comm.html %}We are good at communicaton and we fluently speak Spanish, English, Italian and Japanese.</li>
+      <li>
+            {% include icons/icon-user-tie.html %}Like in the Cinema business, we adapt quickly and we are very well connected with local professionals.</li>
+    </ul>
+  </div>
+</section>
 
-{% include work.html %}
+<section class="wedding_packages">
+  <h3>WEDDING VIDEO PACKAGES</h3>
+  <p>We offer 4 different kinds of packages to out customers.</p>
+  <div class="inner">
+    <div class="pk"><h3>CREATIVE</h3>
+      <ul>
+        <li>450&euro;</li>
+        <li>One Filmmaker for 6 hours </li>
+        <li>Cerimony & Reception coverage</li>
+        <li>Creative Edit</li>
+        <li>On-line delivery in 25 days</li>
+      </ul>
+    </div>
 
-{% include about.html %}
+    <div class="pk"><h3>CLASSIC</h3>
+      <ul>
+        <li>820&euro;</li>
+        <li>One Filmmaker for 8 hours </li>
+        <li>3 min recap video to share online</li>
+        <li>Cinematic Edit. Slow motion, B&W</li>
+        <li>On-line delivery in 15 days</li>
+        <li>&#32;</li>
+      </ul>
+    </div>
+    <div class="pk"><h3>GOLD</h3>
+      <ul>
+        <li>1490&euro;</li>
+        <li>Two Filmmaker for full day</li>
+        <li>3 highlights videos for quick online sharing</li>
+        <li>Before cerimony coverage</li>
+        <li>Own music section</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-{% include clients.html %}
+<section class="wedding_testimonials">
+  <h3>WHAT PEOPLE SAY ABOUT US</h3>
+  <div class="inner">
+      <p>
+        Here some of the opinions that some of our customers wanted to share.
+        <div class="testimonial">
+          <img src="../assets/img/clients/wedding-pic/face-woman.jpg" alt="" />
+          <div class="blob">
+            <p>"I was particularly impressed about their work. Our wedding video ended up fantastic and everything went really really well. I totally reccoment them."</p>
+            <p>Sharon Mei</p>
+          </div>
+        </div>
 
-{% include contact.html %}
+        <div class="testimonial">
+          <img src="../assets/img/clients/wedding-pic/face-woman.jpg" alt="" />
+          <div class="blob">
+            <p>"I was particularly impressed about their work. Our wedding video ended up fantastic and everything went really really well. I totally reccoment them."</p>
+            <p>Sharon Mei</p>
+          </div>
+        </div>
 
-{% include form.html %}
+        <div class="testimonial">
+          <img src="../assets/img/clients/wedding-pic/face-woman.jpg" alt="" />
+          <div class="blob">
+            <p>"I was particularly impressed about their work. Our wedding video ended up fantastic and everything went really really well. I totally reccoment them."</p>
+            <p>Sharon Mei</p>
+          </div>
+        </div>
 
-{% include footer.html %}
+        <div class="testimonial">
+          <img src="../assets/img/clients/wedding-pic/face-woman.jpg" alt="" />
+          <div class="blob">
+            <p>"I was particularly impressed about their work. Our wedding video ended up fantastic and everything went really really well. I totally reccoment them."</p>
+            <p>Sharon Mei</p>
+          </div>
+        </div>
+      </p>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="assets/js/functions.js"></script>
-<script src="assets/js/jquery.fitvids.js"></script>
-<script>$('.project-load').fitVids();</script>
- <!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-55798699-2', 'auto');
-  ga('send', 'pageview');
-</script>
+  </div>
+</section>
+
+  <section class="alt-section section-contact">
+    <h3 id="contact">Contact</h3>
+    <div class="address">
+      <div><i class="icono-smile inline"></i>
+        <div class="inline">Fabrizio Tappero</div>
+        <div><i class="icono-iphoneBold inline"></i><a class="inline" href="tel:{{ site.data.settings.tel }}">{{ site.data.settings.tel }}</a></div>
+        <div><i class="icono-locationArrow inline"></i><a class="inline" href="https://www.google.com/maps/place/Carrer+de+Girona,+61,+08009+Barcelona,+Spain/@41.3943471,2.1693828" target="_blank">C/ Girona 61, Barcelona, Spain</a></div>
+      </div>
+  </section>
+
+
+  {% include form.html %}
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/js/functions.js"></script>
+  <script src="assets/js/jquery.fitvids.js"></script>
+  <script>
+    $('.project-load').fitVids();
+  </script>
+  <!-- Google Analytics -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-55798699-2', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </body>
+
 </html>
