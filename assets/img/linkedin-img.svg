@@ -32,9 +32,9 @@
      inkscape:window-height="751"
      id="namedview19"
      showgrid="false"
-     inkscape:zoom="2.0152544"
-     inkscape:cx="22.305407"
-     inkscape:cy="79.760904"
+     inkscape:zoom="1.4250001"
+     inkscape:cx="111.50872"
+     inkscape:cy="140.56678"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -70,42 +70,42 @@
        id="rect4216"
        width="137.75333"
        height="24.80826"
-       x="-31.746782"
+       x="-49.74678"
        y="-47.489178"
        ry="0" />
     <text
        sodipodi:linespacing="125%"
        id="text4158"
        y="-37.951904"
-       x="36.541599"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.80441093px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="80.756378"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.80441093px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"
        transform="scale(1.0162185,0.98404035)"><tspan
          y="-37.951904"
-         x="36.541599"
+         x="18.828871"
          id="tspan4160"
          sodipodi:role="line">MAKING VIDEOS</tspan><tspan
          id="tspan4214"
-         y="-26.946392"
-         x="36.541599"
+         y="-26.94639"
+         x="18.828869"
          sodipodi:role="line">PEOPLE WANT TO WATCH</tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:11.43700027;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4153"
-       width="83.991112"
+       width="96.892708"
        height="8.4855328"
-       x="48.213856"
+       x="36.213856"
        y="28.693201" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.13094664px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="50.834034"
+       x="38.834034"
        y="34.603416"
        id="text4151"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4153"
-         x="50.834034"
+         x="38.834034"
          y="34.603416"
          style="font-weight:bold;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">www.focusaway.com</tspan></text>
   </g>
