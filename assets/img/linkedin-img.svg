@@ -32,9 +32,9 @@
      inkscape:window-height="751"
      id="namedview19"
      showgrid="false"
-     inkscape:zoom="1.0076272"
-     inkscape:cx="7.2807435"
-     inkscape:cy="44.383403"
+     inkscape:zoom="2.0152544"
+     inkscape:cx="-34.992243"
+     inkscape:cy="65.748142"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -67,7 +67,7 @@
        y="-56.115871" />
     <g
        id="g4200"
-       transform="matrix(0.49943219,0,0,0.49943219,218.48017,8.6428996)">
+       transform="matrix(0.49943219,0,0,0.49943219,-49.239119,0.6428996)">
       <rect
          style="opacity:1;fill:#ffffff"
          x="-282.33755"
@@ -134,27 +134,40 @@
          inkscape:connector-curvature="0" />
     </g>
     <rect
-       style="opacity:0.7;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.43700027;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.54;fill:#aa0088;fill-opacity:1;stroke:none;stroke-width:11.43700027;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4216"
-       width="173.2749"
-       height="28.692846"
-       x="-45.686226"
-       y="-49.737286"
+       width="151.62042"
+       height="24.312046"
+       x="-33.235428"
+       y="-46.248638"
        ry="0" />
     <text
        sodipodi:linespacing="125%"
        id="text4158"
-       y="-37.55238"
-       x="40.956657"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.13404179px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="-37.55238"
-         x="40.956657"
+       y="-36.506748"
+       x="41.89999"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.58711243px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       transform="scale(1.0162185,0.98404035)"><tspan
+         y="-36.506748"
+         x="41.89999"
          id="tspan4160"
          sodipodi:role="line">MAKING VIDEOS</tspan><tspan
          id="tspan4214"
-         y="-23.634832"
-         x="40.956657"
+         y="-24.522858"
+         x="41.899986"
          sodipodi:role="line">PEOPLE WANT TO WATCH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.13094664px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff00cc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="50.834034"
+       y="35.249905"
+       id="text4151"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4153"
+         x="50.834034"
+         y="35.249905"
+         style="font-weight:bold;fill:#ff00cc;">www.focusaway.com</tspan></text>
   </g>
 </svg>
