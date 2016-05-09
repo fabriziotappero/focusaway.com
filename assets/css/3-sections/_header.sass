@@ -89,29 +89,35 @@ header
 
 .social-share
   text-align: center
-  max-width: 80px
-  margin: -70px 0 0 auto
+  max-width: 150px
+  margin: -70px 12px 0 auto
   +display(flex)
   +justify-content(space-around)
   +flex-wrap(wrap)
 
-  a
+  .elem
     display: block
     +size(50px)
     line-height: 50px
     color: $accent
     font-size: 30px
-    margin: 0
+    margin: -10px
     position: relative
+    .IN-widget
+      vertical-align: bottom !important
+      height: 25px
 
-    &:hover
-      color: white
+  //.fb-share-button
 
-  .icon-facebook
-    color: #3a579a
-  .icon-googleplus
-    color: #df4a32
-  .icon-linkedin
-    color: #0077b5
-  .icon-twitter
-    color: #00abf0
+
+  //   &:hover
+  //     color: white
+  //
+  // .icon-facebook
+  //   color: #3a579a
+  // .icon-googleplus
+  //   color: #df4a32
+  // .icon-linkedin
+  //   color: #0077b5
+  // .icon-twitter
+  //   color: #00abf0
