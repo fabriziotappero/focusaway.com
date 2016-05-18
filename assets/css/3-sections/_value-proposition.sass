@@ -1,12 +1,30 @@
 .value-proposition
+  position: relative
   padding: 10px
   .inner
-    text-align: center
+    position: relative
+    text-align: justify
     font-size: 1.5em
+    @media (max-width: 640px)
+      font-size: 1.2em
     max-width: 800px
     margin: 30px auto
     padding: 10px
     color: $accent
 
-    @media (max-width: 640px)
-      font-size: 1.2em
+    .sentence-quote-mark
+      +position(absolute, -20px null null -10px)
+      +size(60px)
+      z-index: -1
+      opacity: 0.5
+      path
+        fill: $accent
+
+    .sentence-unquote-mark
+      +transform(rotate(180deg))
+      +position(absolute, null -10px 0px null)
+      +size(60px)
+      z-index: -1
+      opacity: 0.5
+      path
+        fill: $accent
