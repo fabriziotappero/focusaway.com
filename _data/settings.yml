@@ -9,8 +9,8 @@ tel: +34 633 04 8181
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
+- {name: About Me, url: '#about-me'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
@@ -61,7 +61,7 @@ projects:
 - {name: Music Video - Disco Fries, folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: Restaurant Opening, folder: 'proj-6', file: 'work/proj-6.html'}
 - {name: Short Film Narrative Analysis, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: 2015 Focus Away Show Reel, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Focus Away Show Reel, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: Theatre Show - The Puppeteer, folder: 'proj-9', file: 'work/proj-9.html'}
 #- {name: Wedding Video, folder: 'proj-10', file: 'work/proj-10.html'}
 
@@ -112,9 +112,9 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'film', link: 'https://vimeo.com/fabriziotappero/videos'}
-- {icon: 'googleplus', link: 'https://plus.google.com/u/0/107967937093458188059/'}
-#- {icon: 'youtube', link: 'https://www.youtube.com/user/fabrizioScreencast'}
+- {icon: 'film', link: 'https://vimeo.com/fabriziotappero'}
+- {icon: 'googleplus', link: 'https://plus.google.com/u/0/b/111282084281637799021/'}
+- {icon: 'youtube', link: 'https://www.youtube.com/channel/UCd0h5xM0vD9JTq61oG-Ep0g/featured'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/fabriziotappero/'}
 - {icon: 'github', link: 'https://github.com/fabriziotappero'}
 

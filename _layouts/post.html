@@ -18,32 +18,44 @@
   <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share3.jpg" />
   <meta property="og:description" content="{{ site.data.settings.seo.description }}" />
   <link rel="image_src" href="http://focusaway.com/assets/img/focusaway-share3.jpg" />
-  <title>{{ site.data.settings.title }}</title>
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.css">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-{% include header.html %}
 
-{% include social-share.html %}
+{% include blog-header.html %}
 
-{% include value-proposition.html %}
+<article class="post">
+  <h2>{{ page.title }}</h2>
 
-{% include work.html %}
+  <div class="post-date">
+    Posted on {{ page.date | date: "%e %B %Y" }}
+  </div>
 
-{% include about.html %}
+  <div class="entry fit-vids-style">
+    {{ content }}
+  </div>
 
-{% include clients.html %}
+  {% include disqus.html %}
+</article>
 
-{% include contact.html %}
+<!-- <div class="post-social-share">
+    <a href="https://www.facebook.com/dialog/share?app_id=946372735391329&display=popup&href={{ site.url }}{{ page.url }}&redirect_uri={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="icon-share">{% include icons/icon-facebook.html %}</a>
+    <a href="https://plus.google.com/share?
+    url=http://tomhohenstein.com{{ page.url }}
+    &hl=en-US"
+    onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="icon-share">{% include icons/icon-googlep.html %}</a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&source={{ site.title }}" rel="nofollow" target="_blank" title="Share on Linkedin" class="icon-share">{% include icons/icon-linkedin.html %}</a>
+</div> -->
 
-{% include form.html %}
+
 
 {% include footer.html %}
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="assets/js/functions.js"></script>
-<script src="assets/js/jquery.fitvids.js"></script>
+<script src="{{ site.baseurl }}/assets/js/functions.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.fitvids.js"></script>
 <script>$('.project-load').fitVids();</script>
  <!-- Google Analytics -->
 <script>
@@ -56,4 +68,3 @@
 </script>
 
 </body>
-</html>

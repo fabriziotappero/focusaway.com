@@ -1,17 +1,15 @@
 <footer id="footer">
 
   <div class="lockup">
-    
+
     <div class="content-wrap">
       <nav>
+        <a href="{{ site.baseurl }}/index.html">home</a>
         {% for item in site.data.settings.menu %}
-          <a href="{{ item.url }}">{{ item.name }}</a>
+          <a href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }}</a>
         {% endfor %}
       </nav>
-      
       <p class="copyright"><span>All content copyright {{ site.time | date: '%Y' }}</span></p>
     </div>
-    
   </div>
-
 </footer>

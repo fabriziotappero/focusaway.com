@@ -1,0 +1,82 @@
+
+.posts
+  margin: auto
+  width: 100%
+  @include outer-container
+
+  .post
+    margin-top: 30px
+    @include span-columns(6)
+    // some mixing to reorder how posts fill up the two columns
+    @include omega(2n)
+
+    @media (max-width: 640px)
+      @include span-columns(12)
+
+    h1,h2,h3,h4,h5,h6
+      font-size: 1.5em
+      margin: 20px auto 5px auto
+    img
+      width: 100%
+      height: auto
+
+    .entry
+      color: rgba(black, 0.8)
+
+.posts, .post
+  h1,h2,h3,h4,h5,h6
+    text-transform: uppercase
+    text-align: center
+    color: $accent
+
+
+  .post-date
+    text-align: center
+    font-style: italic
+
+.post
+  @include outer-container
+  font-size: 1.2em
+  margin-bottom: 50px
+  img
+    width: 100%
+    margin: 20px auto
+  h1,h2,h3,h4,h5,h6
+    font-size: 2.3em
+    margin: 70px auto 10px auto
+
+  .fit-vids-style
+    text-align: center
+    margin: auto
+  p
+    text-align: left
+    //margin-left: 5px
+
+
+.post-social-share
+  text-align: center
+  margin: auto
+  //max-width: 350px
+  width: 300px
+  //margin: -50px 12px 0 auto
+  +display(flex)
+  +justify-content(space-around)
+  +flex-wrap(wrap)
+  .elem, a
+    //display: block
+    margin: 10px
+    //margin-bottom: 5px
+    //position: relative
+    // .IN-widget
+    //   vertical-align: bottom !important
+    //   height: 25px
+  .icon-share
+    color: red
+    +size(35px)
+    border-radius: 50%
+    path
+      fill: red
+
+  .icon-share:hover
+    path
+      fill: rgba(red, 0.6)
