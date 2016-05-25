@@ -4,6 +4,9 @@ $(function() {
 	workLoad();
 	clientStuff();
 
+	// resize iframe videos that are included in my blog posts
+	$('.fit-my-post-vid-style').fitVids();
+
 
 	//$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	//$(".biglink").fitText(1.5);
@@ -118,7 +121,7 @@ function clientStuff() {
 
 }
 
-// 
+//
 // (function( $ ){
 //
 //   $.fn.fitText = function( kompressor, options ) {

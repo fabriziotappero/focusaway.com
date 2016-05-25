@@ -54,6 +54,37 @@ By thinking about your online video strategy as an on-going campaign rather than
 one-off project, you will open countless possibilities for how you can reach a
 larger audience. This is particularly true for small companies with limited resources.
 
-At [focusaway.com](www.focusaway.com) we create video content are we are interested
-in your problems. If you think you want to know more please do not hesitate to
- [contact us](www.focusaway.com).
+#### Hard Sell Approach is Out, welcome Branded Advertisement.
+
+Advertising on television or print used to be quite heavy handed. About any
+commercial made before the 1990's was pretty direct and quite forceful.
+In the past years a Hard Sell approach was taken almost 100% of the time.
+
+The Internet came along 15 years ago and since then the average consumer has grown into
+a more tasteful consumer. And this has made "branded advertisement" the most suitable
+advertisement for the Internet. Surprisingly enough, this has trained the average Joe to
+be actually quite resilient to Hard Sell and actually quite sensitive to the emotional
+aspects of branded advertisement.
+
+The type of advertisement used in the Internet World has actually made it
+to the TV when advertising agencies began realizing that the customer online response
+was actually far better than their TV spots. This changed the game very quickly.
+
+Television is not really the best place for branded content. However there is a subgroup of TV
+commercials that actually are something in between the branded Internet ads and the
+classic TV ads. This type of commercials are designed to evoke an emotion or
+feeling that perfectly represents the brand. Rather than beating the viewer over
+ the head with information about a product.
+
+These spots connect with the viewer on an emotional level. Letting the viewer
+know how their product will make them feel, not by telling them
+but by gently guiding them. This very recent airbnb.com ad is a good example of this
+type of ad.
+
+<iframe src="//www.youtube.com/embed/2xegsh1CmPU?modestbranding=1&autohide=1&showinfo=0&controls=1" frameborder="0" width="400" height="220" allowfullscreen></iframe>
+
+At [focusaway.com](www.focusaway.com) we create video content and we believe in the
+superiority of branded advertisement. That is why we are 100% committed in bringing
+branded content advertisement to small and medium companies.
+
+If you think you want to know more please do not hesitate to [contact us](www.focusaway.com).
