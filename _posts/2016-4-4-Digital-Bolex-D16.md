@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Digital Bolex D16, An Unusual Camera
+image: /posts-pics/digital-bolex-d16.jpg
 ---
-![My helpful screenshot]({{ site.baseurl }}/posts-pics/digital-bolex-d16.jpg)
+![opening screenshot]({{ site.baseurl }}{{page.image}})
 I first heard about Digital Bolex in the far 2012 when the Los Angeles CEO of Polite in Public, Joseph Rubinstein, successfully attempted a Kickstarter campaign to build his own side project, The Cinema D16 Camera.
 
 After rising approx US$ 260k from their Kickstarter campaign and after working

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Trailer Video of Assassin's Creed
+image: /posts-pics/assassins-creed.jpg
 ---
-![My helpful screenshot]({{ site.baseurl }}/posts-pics/assassins-creed.jpg)
+![opening screenshot]({{ site.baseurl }}{{page.image}})
 The French company Ubisoft Entertainment SA is a 3 billion Euros company dedicated
 to the development of videogames.
 In October 2015 Ubisoft released their new Assassin's Creed videogame named

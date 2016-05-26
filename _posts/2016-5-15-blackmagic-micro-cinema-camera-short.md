@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Blackmagic Micro Cinema Camera - A Short Film
+image: /posts-pics/Blackmagic-Micro-Cinema-Camera-Short-Film.jpg
 ---
-![My helpful screenshot]({{ site.baseurl }}/posts-pics/Blackmagic-Micro-Cinema-Camera-Short-Film.jpg)
+![opening screenshot]({{ site.baseurl }}{{page.image}})
 Noam Kroll is a very talented film maker from Los Angeles, USA. Noam is as well
 a guy who likes cameras from the Australian Camera manufacturer Blackmagic Design
 and recently he put together a cute 1min short done with a Blackmagic micro cinema camera.

@@ -46,38 +46,29 @@
   h2
     font-size: 1.7em
     margin: 0
-
   .fit-vids-style
     text-align: center
     margin: auto
   p
-    text-align: left
+    text-align: justify
     margin: 8px auto
 
 .post-social-share
   text-align: center
-  margin: auto
-  //max-width: 350px
-  width: 300px
-  //margin: -50px 12px 0 auto
-  +display(flex)
-  +justify-content(space-around)
-  +flex-wrap(wrap)
-  .elem, a
-    //display: block
-    margin: 10px
-    //margin-bottom: 5px
-    //position: relative
-    // .IN-widget
-    //   vertical-align: bottom !important
-    //   height: 25px
-  .icon-share
-    color: red
-    +size(35px)
-    border-radius: 50%
-    path
-      fill: red
-
-  .icon-share:hover
-    path
-      fill: rgba(red, 0.6)
+  background-color: rgba($accent,0.8)
+  .inner
+    +display(flex)
+    +justify-content(space-around)
+    +flex-wrap(wrap)
+    max-width: 500px
+    margin: auto
+    .elem, a
+      margin: 10px auto
+    .icon-share
+      +size(35px)
+      border-radius: 50%
+      path
+        fill: white
+    .icon-share:hover
+      path
+        fill: rgba(white,0.7)

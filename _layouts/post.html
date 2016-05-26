@@ -7,19 +7,22 @@
   <meta charset="UTF-8">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.data.settings.seo.description }}">
   <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
   <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
-  <meta property="og:title" content="{{ site.data.settings.seo.share-title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://focusaway.com" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}" />
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
   <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share1.jpg" />
   <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share2.jpg" />
   <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share3.jpg" />
-  <meta property="og:description" content="{{ site.data.settings.seo.description }}" />
+  {% endif %}
+  <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 300 }}" />
   <link rel="image_src" href="http://focusaway.com/assets/img/focusaway-share3.jpg" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/all.css">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
@@ -40,22 +43,21 @@
   {% include disqus.html %}
 </article>
 
-<!-- <div class="post-social-share">
-    <a href="https://www.facebook.com/dialog/share?app_id=946372735391329&display=popup&href={{ site.url }}{{ page.url }}&redirect_uri={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="icon-share">{% include icons/icon-facebook.html %}</a>
-    <a href="https://plus.google.com/share?
+<div class="post-social-share">
+  <div class="inner">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&redirect_uri={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="icon-share">{% include icons/icon-facebook.html %}</a>
+    <!-- <a href="https://plus.google.com/share?
     url=http://tomhohenstein.com{{ page.url }}
     &hl=en-US"
     onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="icon-share">{% include icons/icon-googlep.html %}</a>
-    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&source={{ site.title }}" rel="nofollow" target="_blank" title="Share on Linkedin" class="icon-share">{% include icons/icon-linkedin.html %}</a>
-</div> -->
-
-
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&source={{ site.title }}" rel="nofollow" target="_blank" title="Share on Linkedin" class="icon-share">{% include icons/icon-linkedin.html %}</a> -->
+  </div>
+</div>
 
 {% include footer.html %}
-
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/functions.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.fitvids.js"></script>
+<script src="{{ site.eurl }}/assets/js/functions.js"></script>
+<script src="{{ site.url }}/assets/js/jquery.fitvids.js"></script>
 <script>$('.project-load').fitVids();</script>
  <!-- Google Analytics -->
 <script>

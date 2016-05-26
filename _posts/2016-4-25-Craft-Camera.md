@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Modular Camera Announced This Week
+image: /posts-pics/craft-camera.jpg
 ---
-![My helpful screenshot]({{ site.baseurl }}/posts-pics/craft-camera.jpg)
+![opening screenshot]({{ site.baseurl }}{{page.image}})
 This year at [NAB Show 2016](http://www.nabshow.com/) tons of new cameras, lenses and other filmmaking stuff got presented.
 An important and quite interesting piece equipment that NAB 2016 was not
 the revealing place for is the very cool [Craft Digital Systems](http://www.craftcamera.com/) modular camera.
