@@ -11,7 +11,7 @@
   <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   {% if page.image %}
   <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
   {% else %}
