@@ -16,7 +16,7 @@ Unlike most of the pro cameras out there, the Craft Camera, so it is called, is
 totally modular camera where you get to add the modules that you need and form
 you own custom camera body. All in all, not a bad idea at all.
 
-![Craft Camera]({{ site.baseurl }}/posts-pics/craft-press-images-1.png)
+![Craft Camera]({{ site.baseurl }}/posts-pics/craft-press-images-1.jpg)
 
 All the modular elements offered by the Craft Camera do everything your might want: Image sensor, audio inputs, power, monitoring, ND filters, etc. As it is conceived, the camera can be put together for your own unique needs. Craft Camera can be a super small camera for your
 action shots or a full fledged pro camera for your more traditional romantic feature film.
