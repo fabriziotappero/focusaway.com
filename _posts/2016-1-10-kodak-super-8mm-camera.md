@@ -4,7 +4,6 @@ title: 8mm Film is Back
 image: /posts-pics/Kodak-Super-8mm-Camera.jpg
 ---
 ![opening screenshot]({{ site.baseurl }}{{page.image}})
-
 hum... a lot can be said about Kodak and its bold move to build and sell a digital camera
 that is actually... analogic.
 

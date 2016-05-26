@@ -43,14 +43,21 @@
   {% include disqus.html %}
 </article>
 
+
+
+
+
+
 <div class="post-social-share">
   <div class="inner">
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&redirect_uri={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="icon-share">{% include icons/icon-facebook.html %}</a>
-    <!-- <a href="https://plus.google.com/share?
-    url=http://tomhohenstein.com{{ page.url }}
-    &hl=en-US"
+
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}&hl=en-US"
     onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="icon-share">{% include icons/icon-googlep.html %}</a>
-    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&source={{ site.title }}" rel="nofollow" target="_blank" title="Share on Linkedin" class="icon-share">{% include icons/icon-linkedin.html %}</a> -->
+
+    <a href="https://twitter.com/home?status=focusaway.com%20Great%20video%20makers%20in%20Barcelona,%20Spain" target="_blank" class="icon-share">{% include icons/icon-twitter.html %}</a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" target="_blank" class="icon-share">{% include icons/icon-linkedin.html %}</a>
   </div>
 </div>
 
