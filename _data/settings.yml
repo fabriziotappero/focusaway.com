@@ -1,6 +1,7 @@
 #-------------------------------
 # General Site Settings
 
+
 title: making videos people want to watch
 description: Helping you to get your message across
 email: fabrizio.tappero@gmail.com
@@ -18,10 +19,11 @@ menu:
 # SEO Section
 
 # NOTE: Providing SEO information will make this website more searchable on the Internet.
+metadata-title: focusaway.com - making viral videos, sports, commercials, ads, advertisement in Barcelona Spain
 
 seo:
-  share-title: Focus Away - making videos people want to watch
-  description: 'We are a creative business dedicated to the creation of on-line videos. From the story all the way to the creation of the video. Our works range from documentaries with Red Bull riders to video courses on how to build drones.'
+  share-title: Focus Away - making advertisement videos people want to watch
+  description: 'We are a creative business located in Barcelona and dedicated to the creation of on-line videos. From the story crafting all the way to the production of the video. Our work ranges from sports documentaries with Red Bull riders to technical videos on how to build drones.'
   rel-author: 'https://plus.google.com/u/0/107967937093458188059/'
   rel-publisher: 'https://plus.google.com/u/0/107967937093458188059/'
 

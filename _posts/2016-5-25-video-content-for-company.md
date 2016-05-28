@@ -3,7 +3,7 @@ layout: post
 title: Why Video Content is Important for Small Companies
 image: /posts-pics/bicycle-ad.jpg
 ---
-![opening screenshot]({{ site.baseurl }}{{page.image}})
+![opening screenshot]({{ site.url }}{{page.image}})
 Developing and bringing a new product into an crowded marketplace is a hard task. Unlike large
 corporations, small companies and start-ups can dedicated smaller budgets for marketing
 and advertisement. Video content is the most direct and effective way to tell people

@@ -6,6 +6,7 @@
 
   .post
     margin: 10px 0
+    text-align: right
 
     @include span-columns(6)
     // some mixing to reorder how posts fill up the two columns
@@ -21,8 +22,18 @@
     .entry
       color: rgba(black, 0.8)
       padding: 3px
+      margin-bottom: -15px
       img
         width: 100%
+
+    .read-more
+      font-size: 0.9em
+      background-color: rgba($accent, 0.9)
+      color: white
+      padding: 0 3px 2px 3px
+
+    .read-more:hover
+      background-color: rgba($accent, 0.8)
 
 .posts, .post
   h1,h2,h3,h4,h5,h6
@@ -40,18 +51,28 @@
   font-size: 1.2em
   margin: 30px auto
   padding: 3px
+  text-align: center
   img
     width: 100%
     margin: 20px auto
   h2
     font-size: 1.7em
-    margin: 0
+    margin: 20px 0
+
   .fit-vids-style
     text-align: center
     margin: auto
   p
     text-align: justify
     margin: 8px auto
+
+  .back-button
+    background-color: rgba($accent, 0.9)
+    color: white
+    padding: 5px 10px 5px 10px
+    //margin: 400px auto
+  .back-button:hover
+    background-color: rgba($accent, 0.8)
 
 .post-social-share
   text-align: center
