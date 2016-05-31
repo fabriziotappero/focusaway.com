@@ -7,30 +7,41 @@
   width: 100%
   text-align: center
   //display: inline-block
-  @media (max-width: 600px)
-    height: 400px
-  @media (max-width: 500px)
+  @media (max-width: 700px)
     height: 300px
+
   .inner
     text-align: left
     //max-width: 700px
-    margin-left: 45%
-    padding-top: 50px
+    margin-left: 35%
+    padding-top: 30px
     h1
-      color: white
+      color: rgb(228, 209, 107)
+      background-color: rgba(black, 0.2)
+      padding: 4px
+      font-size: 3.5em
+      @media (max-width: 700px)
+        font-size: 1.4em
+      @media (max-width: 450px)
+        font-size: 1.2em
     .highlight
       font-size: 1.5em
       color: white
+      font-weight: bold
+      @media (max-width: 700px)
+        font-size: 1em
 
 
 .wedding_offer
   font-size: 1.2em
+  @media (max-width: 550px)
+    font-size: 1em
   .inner
     margin: 10px auto
     max-width: 700px
     li
       text-align: left
-      color: #E1C184
+      color: rgba($accent, 1)
       list-style-type: none
       margin-bottom: 20px
       svg
@@ -46,22 +57,39 @@
 
 .wedding_packages
   font-size: 1.2em
-
+  @media (max-width: 630px)
+    font-size: 1em
+  @media (max-width: 480px)
+    font-size: 1.2em
+  background-color: #f4f3f2
   text-align: center
+  padding-bottom: 50px
   .inner
     max-width: 900px
     margin: auto
     .pk
       width: 200px
-      @media (max-width: 500px)
-        width: 100px
-      height: 550px
+
+      @media (max-width: 630px)
+        width: 150px
+      @media (max-width: 480px)
+        width: 100%
+        height: 460px
+        margin-bottom: 30px
+
+      height: 750px
       margin: 0 auto
       display: inline-block
-      background-color: rgba(#E1C184, 0.1)
+      background-color: white
+      .description
+        font-size: 0.8em
+        margin: auto 5px 50px 5px
       h3
         font-size: 2em
+        @media (max-width: 630px)
+          font-size: 1.7em
         margin-bottom: 0
+        color: rgba($accent, 1)
       ul, li
         text-transform: uppercase
         text-align: left
@@ -70,12 +98,14 @@
         padding: 0
         margin: 2px
       li
-        font-weight: bold
+        font-weight: lighter
         padding-bottom: 12px
-      li:first-child
+      li:last-child
         margin-bottom: 30px
         text-align: center
         font-size: 2em
+        @media (max-width: 630px)
+          font-size: 1.5em
         font-weight: bold
         color: rgba(#E1C184, 0.5)
 
@@ -83,12 +113,18 @@
   p
     margin: 0 0 2px 0
   font-size: 1.2em
+  @media (max-width: 550px)
+    font-size: 1em
+
   .inner
     margin: 0 auto
     max-width: 700px
     text-align: center
     .testimonial
-      color: rgba(#E1C184, 1)
+      color: rgba($accent, 1)
+      padding: 20px
+      img
+        width: 140px
       img, .blob
         display: inline-block
         margin: auto
@@ -96,3 +132,4 @@
       .blob
         max-width: 400px
         font-style: italic
+        padding-left: 20px
