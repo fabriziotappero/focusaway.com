@@ -2,19 +2,23 @@
 title:
 ---
 
-This is the Disco Fries music video for the song
- [Born Ready](https://soundcloud.com/thediscofries/disco-fries-ft-hope-murphy-born-ready).
+Sometimes, to refine my abilities in the art of video crafting I like to
+help out other video makers and professionals in their creations.
 
-This video was produced and edited by my good friend
- [Brendan McNamee](http://www.bluntfilms.co.uk) and I helped out with the
- production on set.
+A bit by chance I ended up helping out on set for the creation of the music
+video for the song Born Ready. **I like to clarify that my role in the creation
+of this video was totally marginal**.
 
-<iframe src="//player.vimeo.com/video/156948037?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="300" height="170" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+The Copyright of this video as well as of the image thumbnail associated, are of
+their owners. I CLAIM NO OWNERSHIP ON ANY PART OF THIS MATERIAL.
 
-More videos at [my Vimeo page.](http://vimeo.com/fabriziotappero)
+<iframe width="560" height="315" src="//www.youtube.com/embed/mUEQ2aV26as?modestbranding=1&autohide=1&showinfo=0&controls=1" frameborder="0" allowfullscreen></iframe>
+
+
+[The Disco Fries](https://en.wikipedia.org/wiki/The_Disco_Fries) is an American
+Progressive House duo made of Nick Ditri and Danny Boselovic.
 
 Production company: [Nice and Polite](http://www.niceandpolite.com)\\
 Director: HIVE\\
-Producer and editor: [Brendan McNamee](http://www.bluntfilms.co.uk)\\
 3D modelling: [Yohan Nebbout](http://www.yohan3d.com)\\
 Additional compositing: [Albert Hofman](http://alberthofman.com)
