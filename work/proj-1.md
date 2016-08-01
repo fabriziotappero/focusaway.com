@@ -2,14 +2,15 @@
 title:
 ---
 
-This is the TEASER of the video documentary of the incredible 6 time motorbike World champion [Adam Raga](http://adamraga.es/).
+[TRS Motorcycles](http://www.trsmotorcycles.com/) is a fresh and dynamic motorcycle manufacturer built by the hands
+of the seven time World champion [Jordi Tarres](https://en.wikipedia.org/wiki/Jordi_Tarr%C3%A9s_(motorcycle_trials_rider)).
 
-When I met Adam and saw what he could do with his bike, I told myself *"I must
-capture this in a video and show to the World"*. It took me some time and some energy but it
-was well worth it.
+This video was commissioned by TRS Motorcycles and shows the amazing trajectory of
+this company and the top-class bike construction with the lightest engine of its class.
 
-The FINAL VERSION of this documentary [is actually here.](http://vimeo.com/164539639)
+The current official TRS Motorcycles rider is the incredible Red Bull rider and six time
+motorbike World champion [Adam Raga](http://adamraga.es/).
 
-<iframe src="//player.vimeo.com/video/153500787?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="300" height="170" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/173256642?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="300" height="170" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 More videos at [my Vimeo page.](http://vimeo.com/fabriziotappero)
