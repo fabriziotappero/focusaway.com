@@ -71,9 +71,7 @@ projects:
 
 #-------------------------------
 # Clients Section
-
 clients:
-
 
 - {avatar: 'face-adam_raga.jpg',
   name: 'Adam Raga',
@@ -87,17 +85,17 @@ clients:
   quote: '<p><strong>They made for us a great promotional video</strong> of our business activity. They took care of every aspect: locations, shooting, video editing and publishing. We were very pleased by their professionalism, personal touch and of course by the final work.</p>',
   logo: 'logo_lospitalitadelcastello.png'}
 
-  # - {avatar: 'face-jordi_tarres.jpg',
-  #   name: 'Jordi Tarres',
-  #   title: 'TRS Motorchicles Tehcnical Manager',
-  #   quote: '<p><strong>An interesting guy.</strong> I had the pleasure of meeting .</p>',
-  #   logo: 'logo_trs.png'}
+- {avatar: 'face-jordi_tarres.jpg',
+  name: 'Jordi Tarres',
+  title: 'Trial Legend & TRS Tehcnical Manager',
+  quote: '<p><strong>A very capable guy.</strong> We met during the shooting of the trial documentary <i>Equilibrium by Adam Raga</i>. Fabrizio created a video advertisement for TRS Motorcycles where he took care of absolutely everything. I am totally pleased by the final result and we are currently working on a second corporate video. I totally recommend him.</p>',
+  logo: 'logo_trs.png'}
 
-- {avatar: 'face-vincent_bardolino.jpg',
-  name: 'Vincent Bardolino',
-  title: 'Video Editor and Colorist',
-  quote: '<p><strong>A cool dude.</strong> I had the chance to work with Fabrizio in the shooting and editing of a few short movies done in Australia and in Barcelona. I can certainly say that I was not disapponted.</p>',
-  logo: 'logo_fastbanana.png'}
+# - {avatar: 'face-vincent_bardolino.jpg',
+#   name: 'Vincent Bardolino',
+#   title: 'Video Editor and Colorist',
+#   quote: '<p><strong>A cool dude.</strong> I had the chance to work with Fabrizio in the shooting and editing of a few short movies done in Australia and in Barcelona. I can certainly say that I was not disapponted.</p>',
+#   logo: 'logo_fastbanana.png'}
 
 - {avatar: 'face-bruno_schiavi.jpg',
   name: 'Bruno Schiavi',
