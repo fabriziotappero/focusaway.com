@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Short 
-image: /posts-pics/assassins-creed.jpg
+title: Shooting a Short in Barcleona
+image: /posts-pics/barcelona-short-shooting.jpg
 ---
 ![opening screenshot]({{ site.url }}{{page.image}})
 The French company Ubisoft Entertainment SA is a 3 billion Euros company dedicated
