@@ -2,7 +2,7 @@
 layout: post
 title: Video Shooting in Barcelona, Spain
 image: /posts-pics/barcelona-city.jpg
-published: false
+published: true
 ---
 ![opening screenshot]({{ site.url }}{{ page.image }})
 Spain is one of best and most popular filming location in the World. In the 1960s, directors of the size of Sergio Leone did help Spain to become a popular destination
