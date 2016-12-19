@@ -2,6 +2,10 @@
 
   <h3 id="about-me">About Myself</h3>
 
+  <div class="blurb">
+    {{ site.data.settings.blurb | markdownify }}
+  </div>
+
   <div class="face-lockup">
     <div class="banner-img"></div>
 
@@ -15,11 +19,7 @@
   </div>
 
 
-  <div class="blurb">
-    {{ site.data.settings.blurb | markdownify }}
-  </div>
-
-  {% if site.data.settings.skills %}
+  <!-- {% if site.data.settings.skills %}
 
   <div class="skill-lockup">
 
@@ -38,6 +38,6 @@
 
   </div>
 
-  {% endif %}
+  {% endif %} -->
 
 </section>
