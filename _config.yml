@@ -5,7 +5,8 @@ permalink: pretty
 
 url: "http://focusaway.com/"
 #url: "http://127.0.0.1:8000"
-#port: 8000
+
+port: 8000
 
 #include: ['_includes/work']
 
