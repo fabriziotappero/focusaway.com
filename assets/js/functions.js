@@ -7,10 +7,6 @@ $(function() {
 	// resize iframe videos that are included in my blog posts
 	$('.fit-my-post-vid-style').fitVids();
 
-
-	//$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
-	//$(".biglink").fitText(1.5);
-
 });
 
 // smoothScroll function is applied from the document ready function
@@ -28,9 +24,7 @@ function smoothScroll (duration) {
 	});
 }
 
-
 function workBelt() {
-
   $(".trigger").remove();
   $(".return").remove();
 
@@ -39,9 +33,7 @@ function workBelt() {
     $('.thumb-container').hide(800);  // FT
     $('.work-container').show();
     $('html, body').animate({scrollTop: $('#work').offset().top},300);
-
   });
-
   $('.work-return').click(function() {
     //$('.work-belt').removeClass("slided");
     $('.work-container').hide(800);
@@ -49,7 +41,6 @@ function workBelt() {
   });
 
 }
-
 
 function  workLoad() {
 
@@ -64,18 +55,17 @@ function  workLoad() {
 
     // load new page content and, when completed, run the vimeo iframe resize window
     $('.project-load').html(spinner).load(newHTML,function(){$('.project-load').fitVids();});
+		$('.project-title').text(newTitle);
+		console.log(34);
 		// fitvid seems to need this
+		$('.project-load').fitVids();
 		$('.project-load .container').css("width", "100%");
-    $('.project-title').text(newTitle);
-
 
 
   });
 }
 
-
 function clientStuff() {
-
   $('.client-unit').first().addClass('active-client');
   $('.client-logo').first().addClass('active-client');
   $('.clients-mobile-nav span').first().addClass('active-client');
@@ -89,7 +79,6 @@ function clientStuff() {
     $siblings.removeClass('active-client');
     $this.addClass('active-client');
   });
-
 
   $('.client-control-next, .client-control-prev').click(function() {
 
@@ -115,41 +104,11 @@ function clientStuff() {
         } else {
           $('.active-client').removeClass('active-client').prev().addClass('active-client');
         }
-
       }
-
-
   });
 
 }
 
-//
-// (function( $ ){
-//
-//   $.fn.fitText = function( kompressor, options ) {
-//
-//     // Setup options
-//     var compressor = kompressor || 1,
-//         settings = $.extend({
-//           'minFontSize' : Number.NEGATIVE_INFINITY,
-//           'maxFontSize' : Number.POSITIVE_INFINITY
-//         }, options);
-//
-//     return this.each(function(){
-//
-//       // Store the object
-//       var $this = $(this);
-//
-//       // Resizer() resizes items based on the object width divided by the compressor * 10
-//       var resizer = function () {
-//         $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
-//       };
-//
-//       // Call once to set.
-//       resizer();
-//
-//       // Call on resize. Opera debounces their resize by default.
-//       $(window).on('resize.fittext orientationchange.fittext', resizer);
 //
 //     });
 //
