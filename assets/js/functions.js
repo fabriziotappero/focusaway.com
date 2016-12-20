@@ -64,6 +64,8 @@ function  workLoad() {
 
     // load new page content and, when completed, run the vimeo iframe resize window
     $('.project-load').html(spinner).load(newHTML,function(){$('.project-load').fitVids();});
+		// fitvid seems to need this
+		$('.project-load .container').css("width", "100%");
     $('.project-title').text(newTitle);
 
 
