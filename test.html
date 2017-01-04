@@ -1,0 +1,55 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+  <meta property="og:image" content="http://focusaway.com/img/focus-away.jpg" />
+  <title>{{ site.data.settings.title }}</title>
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/all.css">
+  <!-- <link rel="stylesheet" href="{{ site.url }}/assets/css/icono.min.css"> -->
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<p>Just some test.</p>
+<div id="instafeed"></div>
+
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/functions.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/instafeed.min.js"></script>
+  <script>
+    // fit video
+    $('.project-load').fitVids();
+    // Instagram
+    var feed = new Instafeed({
+    get: 'tagged',
+    tagName: 'boda',
+    clientId: '66280fe317a94c02813b1d55fbdb5853'});
+    feed.run();
+    //Google Analytics
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-55798699-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
+</html>
