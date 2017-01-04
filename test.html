@@ -17,8 +17,16 @@
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-<p>Just some test.</p>
-<div id="instafeed"></div>
+  <section class="wedding_wrap">
+
+    <section class="wedding_page_banner">
+    </section>
+    <div class="wedding_page">
+      <!-- <h2>we love weddings</h2> -->
+      <div class="instagram" id="instagram"></div>
+    </div>
+
+    </section>
 
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -30,10 +38,25 @@
     $('.project-load').fitVids();
     // Instagram
     var feed = new Instafeed({
-    get: 'tagged',
-    tagName: 'boda',
-    clientId: '66280fe317a94c02813b1d55fbdb5853'});
-    feed.run();
+        get: 'user',
+        tagName: 'boda',
+        userId: 4161484459,
+        accessToken: '4161484459.1677ed0.3034c66e4e9e42f8844595aa005d251a',
+        target: 'instagram',
+		    resolution: 'low_resolution',
+        after: function() {
+    			var el = document.getElementById('instagram');
+    			if (el.classList)
+    				el.classList.add('show');
+    			else
+    				el.className += ' ' + 'show';
+    		}
+    });
+    window.onload = function() {
+    	feed.run();
+    };
+
+
     //Google Analytics
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
