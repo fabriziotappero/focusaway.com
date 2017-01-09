@@ -10,7 +10,7 @@ tel: +34 633 04 8181
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: News, url: 'blog/'}
+- {name: Blog, url: 'blog/'}
 - {name: Work, url: '#work'}
 - {name: About Me, url: '#about-me'}
 - {name: Clients, url: '#clients'}
