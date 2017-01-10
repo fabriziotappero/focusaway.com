@@ -17,146 +17,51 @@
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-<section class="wedding_banner">
-  <div class="inner">
-      <h1>WEDDING VIDEOGRAPHY TO CAPTURE THE MOMENT FOREVER</h1>
-      <div class="highlight">
-        <p>we are a Barcelona wedding videography studio and we are committed at
-          crafting boutique wedding videos.</p>
-      </div>
-  </div>
-</section>
-
-<section class="wedding_offer">
-  <div class="inner">
-    <h3>HOW WE WORK</h3>
-    <p>We are passionate about cinematography and we make wedding videos. Here it is what makes us different from the others.</p>
-    <ul>
-      <li>
-            {% include icons/icon-film.html %} We come from the cinematography World and we are active in the documentary and short-film production business.</li>
-      <li>
-            {% include icons/icon-euro.html %}We do not use tripods but only steadycam. This allows us to be 30% faster.</li>
-      <li>
-            {% include icons/icon-comm.html %}We are good at communicaton and we fluently speak Spanish, English, Italian and Japanese.</li>
-      <li>
-            {% include icons/icon-user-tie.html %}Like in the Cinema business, we adapt quickly and we are very well connected with local professionals.</li>
-    </ul>
-  </div>
-</section>
-
-<section class="wedding_packages">
-  <div class="inner">
-    <h3>OUR PERSONAL WEDDING VIDEO PACKAGES</h3>
-    <p>We very much work on tailored offers but, for sake of
-      clarity, we like to offer three foundamental packages to which it is possible
-      to apply any additional change to best suit you personal taste.</p>
-    <div class="pk"><h3>ESSENCE</h3>
-      <div class="description">
-      <p>Good things do come in small packages. This videography package is ideal
-        if you’re having an intimate wedding and wanting coverage of your
-        ceremony and reception formalities.</p>
-      </div>
-      <ul>
-        <li>One Filmmaker for 4 hours </li>
-        <li>Cerimony & Reception coverage</li>
-        <li>Creative Edit</li>
-        <li>On-line delivery in 25 days</li>
-        <li>650&euro;</li>
-      </ul>
+  <section class="wedding_wrap">
+    <section class="wedding_page_banner">
+      <div class="hero"><p>Making exceptional wedding video</p></div>
+    </section>
+    <div class="wedding_page">
+      <div class="instagram" id="instagram"></div>
     </div>
-
-    <div class="pk"><h3>FULLDAY</h3>
-      <div class="description">
-      <p>The emotion and atmosphere of your wedding day will be beautifully
-        reflected in your wedding highlight video. Our Fullday Package includes
-        8 hours of beautiful cinematic coverage.</p>
-      </div>
-      <ul>
-        <li>One Filmmaker for 8 hours </li>
-        <li>3 min recap video to share online</li>
-        <li>Cinematic Edit. Slow motion, B&W</li>
-        <li>On-line delivery in 15 days</li>
-        <li>&#32;</li>
-        <li>920&euro;</li>
-      </ul>
-    </div>
-    <div class="pk"><h3>GOLD</h3>
-      <div class="description">
-      <p>You only have to speak to any married couple and they'll tell you just
-        how fast their wedding day went. With so many guests and so little time,
-        how do you take it all in? Two videographers, that's how!</p>
-      </div>
-      <ul>
-        <li>Two Filmmaker for full day</li>
-        <li>3 highlights videos for quick online sharing</li>
-        <li>Before cerimony coverage</li>
-        <li>Own music section</li>
-        <li>1890&euro;</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="wedding_testimonials">
-  <h3>WHAT PEOPLE SAY ABOUT US</h3>
-  <div class="inner">
-      <p>
-        Here you can find the opinions of some of our customers who have
-        decided to share with you their experience when working with us.
-        <div class="testimonial">
-          <img src="../assets/img/clients/wedding-pic/face-woman-1.jpg" alt="" />
-          <div class="blob">
-            <p>"I was particularly impressed about their work. Our wedding video ended up fantastic and everything went really really well. I totally reccoment them."</p>
-            <p>Sharon Mei</p>
-          </div>
-        </div>
-
-        <div class="testimonial">
-          <img src="../assets/img/clients/wedding-pic/couple-1.jpg" alt="" />
-          <div class="blob">
-            <p>"Solo os puedo decir que elegir a vostros
-               ha sido una de las mejores decisiones!! Trato y profesionalidad, inigualables.
-              Sin duda volvería a elegirlos. ¡todos forman un gran equipo!
-              ."</p>
-            <p>Jordi y Mara</p>
-          </div>
-        </div>
-
-        <div class="testimonial">
-          <img src="../assets/img/clients/wedding-pic/face-woman-2.jpg" alt="" />
-          <div class="blob">
-            <p>"No nos equivocamos para nada... Fue fantástico
-              y todo salió a la perfección. Todos los invitados quedaron encantados
-              y nosotros sin duda también."</p>
-            <p>Montze Martin</p>
-          </div>
-        </div>
-      </p>
-
-  </div>
-</section>
-
-  <section class="alt-section section-contact">
-    <h3 id="contact">Contact</h3>
-    <div class="address">
-      <div><i class="icono-smile inline"></i>
-        <div class="inline">Fabrizio Tappero</div>
-        <div><i class="icono-iphoneBold inline"></i><a class="inline" href="tel:{{ site.data.settings.tel }}">{{ site.data.settings.tel }}</a></div>
-        <div><i class="icono-locationArrow inline"></i><a class="inline" href="https://www.google.com/maps/place/Carrer+de+Girona,+61,+08009+Barcelona,+Spain/@41.3943471,2.1693828" target="_blank">C/ Girona 61, Barcelona, Spain</a></div>
-      </div>
   </section>
 
 
-  {% include form.html %}
+{% include about.html %}
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="{{ site.url }}/assets/js/functions.js"></script>
-  <script src="{{ site.url }}/assets/js/jquery.fitvids.js"></script>
+{% include form.html %}
+
+{% include footer.html %}
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/functions.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/instafeed.min.js"></script>
   <script>
+    // fit video
     $('.project-load').fitVids();
-  </script>
-  <!-- Google Analytics -->
-  <script>
+    // Instagram
+    var feed = new Instafeed({
+        get: 'user',
+        tagName: 'boda',
+        userId: 4161484459,
+        accessToken: '4161484459.1677ed0.3034c66e4e9e42f8844595aa005d251a',
+        target: 'instagram',
+		    resolution: 'low_resolution',
+        after: function() {
+    			var el = document.getElementById('instagram');
+    			if (el.classList)
+    				el.classList.add('show');
+    			else
+    				el.className += ' ' + 'show';
+    		}
+    });
+    window.onload = function() {
+    	feed.run();
+    };
+
+
+    //Google Analytics
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
       i[r] = i[r] || function() {
