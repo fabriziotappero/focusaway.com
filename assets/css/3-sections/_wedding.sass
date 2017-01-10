@@ -12,10 +12,16 @@
     padding-bottom: 950px
     margin-bottom: 30px
 
+    @media (max-width: 700px)
+      padding-bottom: 420px
+      background-size: 70px 70px, 80px 70px, cover
+      background-position: 5px 2px,0px 0px, center top
+
     .hero
       text-transform: uppercase
+      font-family: 'Open Sans' sans-serif
       color: white
-      font-weight: 600
+      font-weight: 100
       font-size: 51px
       position: absolute
       margin: 0
@@ -26,17 +32,9 @@
         padding: 75px 0 0 5px
         font-size: 21px
       p
-        font-family: 'Open Sans' sans-serif
-        color: white
-        font-weight: 100
         background-color: rgba(black, 0.4)
         margin: 0
         padding: 5px
-
-    @media (max-width: 700px)
-      padding-bottom: 420px
-      background-size: 70px 70px, 80px 70px, cover
-      background-position: 5px 2px,0px 0px, center top
 
   .wedding_page
     text-align: center
@@ -46,7 +44,6 @@
       margin: auto
 
       a
-        //margin: 2px 6px 0 0
         margin: 0
         padding: 0
         filter: brightness(100%)
