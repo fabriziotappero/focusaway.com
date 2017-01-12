@@ -1,9 +1,11 @@
 #blog-header
   @extend %background-image
   background:
-    image: none, url(../img/#{$hero-path})
+    position: 5px 0px, 15% 50%
+    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
     blend-mode: normal, normal
-  padding-bottom: 2px
+    size: 140px 140px, cover
+  padding-bottom: 200px
 
   nav
     float: right
@@ -13,10 +15,12 @@
       display: inline-block
       margin-left: 20px
 
-      color: rgba($accent,0.8)
+      //color: rgba($accent,0.8)
+      color: rgba(93, 65, 45, 0.9)
       @extend %small-bold
 
       padding: 0 2px 0 2px
+      //background-color: rgba(white,0.3)
       background-color: rgba(white,0.6)
 
       &:focus, &:visited, &:active
@@ -35,7 +39,7 @@
     letter-spacing: 0.05em
     margin-bottom: 10px
     clear: both
-    padding-top: 20px
+    padding-top: 80px
     margin-left: 5px
     margin-right: 5px
 
@@ -63,7 +67,8 @@
   #blog-header
     background:
       image: none, url(../img/#{$hero-path})
-    max-height: 200px
+    //max-height: 200px
+    padding-bottom: 150px
 
     nav
       float: none
@@ -71,7 +76,7 @@
       padding: 0 0 0 0
 
       a
-        font-size: 0.8em
+        font-size: 0.7em
         margin-left: 0
         margin-right: 0
         padding: 0 2px
