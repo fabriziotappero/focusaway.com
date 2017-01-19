@@ -28,7 +28,6 @@ start-up and you have limited marketing resources, a short and to-the-point vide
 very well be your best marketing investment.
 
 #### Customised and High Content Videos Increase your Internet Visibility
-
 YouTube is the second biggest search engine in the World, the first being Google.
 Well crafter and emotionally relevant videos are your best bet to get to people who
 want to buy from you.
@@ -56,7 +55,6 @@ one-off project, you will open countless possibilities for how you can reach a
 larger audience. This is particularly true for small companies with limited resources.
 
 #### Hard Sell Approach is Out, welcome Branded Advertisement.
-
 Advertising on television or print used to be quite heavy handed. About any
 commercial made before the 1990's was pretty direct and quite forceful.
 In the past years a Hard Sell approach was taken almost 100% of the time.

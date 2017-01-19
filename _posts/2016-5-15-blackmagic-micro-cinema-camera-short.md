@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blackmagic Micro Cinema Camera - A Short Film
-image: /posts-pics/Blackmagic-Micro-Cinema-Camera-Short-Film.jpg
+image: /posts-pics/BMMCC-Short-Film.jpg
 ---
 ![opening screenshot]({{ site.url }}{{page.image}})
 Noam Kroll is a very talented film maker from Los Angeles, USA. Noam is as well
@@ -26,4 +26,4 @@ Tokina 11-16mm, Rokinon 24mm, Rokinon 50mm, Nikkor 50mm, Zeiss 85mm.
 The short MICRO was shot in RAW 3:1 and colored in DaVinci Resolve and
 FilmConvert. Below you can see the actual footage before and after coloring.
 
-![My helpful screenshot]({{ site.url }}/posts-pics/Blackmagic-Micro-Cinema-Camera-Short-Film-compare.jpg)
+![My helpful screenshot]({{ site.url }}/posts-pics/BMMCC-Short-Film-compare.jpg)

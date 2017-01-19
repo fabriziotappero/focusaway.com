@@ -14,6 +14,7 @@ weather, cost-effective labor and of course small important factors like the qua
 of food, the hospitality and the fact that Spain is a very safe place.
 
 Spain is the home of great films like Cohen's 2012 The Dictator, Justin Lin's blockbuster Fast and Furious 6, Game of Thrones from HBO in 2015, major TV drams like Emerald City starring Vincent D'Onofrio, Alejandro Amenabar thriller Regression in 2014, the mithical Doctor Who by BBC and an uncountable number of car commercials and TV commercials in general.
+
 ![opening screenshot]({{ site.url }}/posts-pics/woody-allen-barcelona-film.jpg)
 
 #### Legalities
