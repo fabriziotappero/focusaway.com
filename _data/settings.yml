@@ -59,15 +59,15 @@ projects:
 - {name: Motorbike World Champion - Adam Raga, folder: 'proj-0', file: 'work/proj-0.html'}
 - {name: The Origin of TRS Motorcycles, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: One day With Fox-Head Rider, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Luxury Homes, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Wedding Videos, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Bed & Breakfast, folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Music Video - Disco Fries, folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: Restaurant Opening, folder: 'proj-6', file: 'work/proj-6.html'}
 - {name: Short Film Narrative Analysis, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Focus Away Show Reel, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: Theatre Show - The Puppeteer, folder: 'proj-9', file: 'work/proj-9.html'}
-#- {name: Wedding Video, folder: 'proj-10', file: 'work/proj-10.html'}
-
+- {name: Luxury Homes, folder: 'proj-10', file: 'work/proj-10.html'}
+- {name: Wedding Video, folder: 'proj-11', file: 'work/proj-11.html'}
 
 #-------------------------------
 # Clients Section
