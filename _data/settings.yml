@@ -68,6 +68,7 @@ projects:
 - {name: Theatre Show - The Puppeteer, folder: 'proj-9', file: 'work/proj-9.html'}
 - {name: Luxury Homes, folder: 'proj-10', file: 'work/proj-10.html'}
 - {name: Wedding Video, folder: 'proj-11', file: 'work/proj-11.html'}
+- {name: Behind the Soundtrack, folder: 'proj-12', file: 'work/proj-12.html'}
 
 #-------------------------------
 # Clients Section
