@@ -1,21 +1,15 @@
 header
   @extend %background-image
   background:
-    position: 5px 0px, 15% 50%
+    position: 5px 0px, 45% 50%
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
     blend-mode: normal, normal
     size: 140px 140px, cover
     filter: blur(0.5)
   filter: contrast(0.8)
-  //filter: saturate(0.9)
   padding-bottom: 350px
 
-
-  //.logo
-  //  +size(50px)
-  //  float: left
-  //  margin: 10px 0 0 30px
-
+  .logo
     path
       fill: rgba(0,0,0,0.99)
 
@@ -83,7 +77,7 @@ header
 @media (max-width: 640px)
   header
     background:
-      position: 5px 0px, 17% 50%
+      position: 5px 0px, 47% 50%
       image: none, url(../img/#{$hero-path})
     padding-bottom: 250px
 
