@@ -54,10 +54,10 @@ function  workLoad() {
         newHTML = 'work/'+ newfolder;
 
     // load new page content and, when completed, run the vimeo iframe resize window
-    //$('.project-load').html(spinner).load(newHTML,function(){$('.project-load').fitVids();$('.project-load .container').css("width", "100%");});
-		$('.project-load').load(newHTML);
+    $('.project-load').html(spinner).load(newHTML,function(){$('.project-load').fitVids();$('.project-load .container').css("width", "100%");});
+		//$('.project-load').load(newHTML);
 		$('.project-title').text(newTitle);
-    console.log(newHTML);
+    //console.log(newHTML);
 
   });
 }
