@@ -5,6 +5,7 @@ permalink: pretty
 
 url: "http://focusaway.com"
 #url: "http://127.0.0.1:8000"
+baseurl: "/"
 
 port: 8000
 
@@ -14,5 +15,5 @@ sass:
   sass_dir: assets/css
   style: :nested
 
-gems:
+plugins:
   - jekyll-sitemap

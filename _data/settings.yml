@@ -92,12 +92,6 @@ clients:
   quote: '<p><strong>A very capable guy.</strong> We met during the shooting of the trial documentary <i>Equilibrium by Adam Raga</i>. Fabrizio created a video advertisement for TRS Motorcycles where he took care of absolutely everything. I am totally pleased by the final result and we are currently working on a second corporate video. I totally recommend him.</p>',
   logo: 'logo_trs.png'}
 
-# - {avatar: 'face-vincent_bardolino.jpg',
-#   name: 'Vincent Bardolino',
-#   title: 'Video Editor and Colorist',
-#   quote: '<p><strong>A cool dude.</strong> I had the chance to work with Fabrizio in the shooting and editing of a few short movies done in Australia and in Barcelona. I can certainly say that I was not disapponted.</p>',
-#   logo: 'logo_fastbanana.png'}
-
 - {avatar: 'face-bruno_schiavi.jpg',
   name: 'Bruno Schiavi',
   title: 'Manager of onlocations.com',
@@ -114,12 +108,10 @@ clients:
 # Contact Section
 
 social:
-- {icon: 'youtube', link: 'https://vimeo.com/fabriziotappero'}
-#- {icon: 'googleplus', link: 'https://plus.google.com/u/0/b/111282084281637799021/'}
-- {icon: 'envelope', link: 'mailto:{{ site.data.settings.email }}'}
-#- {icon: 'youtube', link: 'https://www.youtube.com/channel/UCd0h5xM0vD9JTq61oG-Ep0g/featured'}
-- {icon: 'camera', link: 'http://www.instagram.com/focusaway/'}
+- {icon: 'vimeo', link: 'https://vimeo.com/fabriziotappero'}
+- {icon: 'mail2', link: 'mailto:{{ site.data.settings.email }}'}
+- {icon: 'instagram', link: 'http://www.instagram.com/focusaway/'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/fabriziotappero/'}
-#- {icon: 'github', link: 'https://github.com/fabriziotappero'}
 
-# social network icons available are "home,camera,film,envelope,googleplus,facebook,twitter,youtube,vimeo,github,linkedin"
+# these icons are located in /assets/css/fonts/ and have been generated
+# using the webpage app https://icomoon.io/
