@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: 
+title:
 ---
 
 This is the video documentary of the incredible 6 time motorbike World champion [Adam Raga](http://adamraga.es/).
