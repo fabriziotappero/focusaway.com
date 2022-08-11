@@ -66,7 +66,7 @@ projects:
 - {name: Short Film Narrative Analysis, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Actor Reel, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: The Magic of Cinema, folder: 'proj-9', file: 'work/proj-9.html'}
-- {name: Luxury Homes, folder: 'proj-10', file: 'work/proj-10.html'}
+#- {name: Luxury Homes, folder: 'proj-10', file: 'work/proj-10.html'}
 - {name: Classic Architecture and Fashion , folder: 'proj-11', file: 'work/proj-11.html'}
 - {name: Behind the Soundtrack, folder: 'proj-12', file: 'work/proj-12.html'}
 - {name: C for Cake - Short Film, folder: 'proj-13', file: 'work/proj-13.html'}
