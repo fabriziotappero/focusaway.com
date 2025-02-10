@@ -3,7 +3,7 @@
 
 
 title: visual content worth watching
-description: speculative fiction, comedic provocative skits, dark narrative
+description: speculative fiction, provocative skit, dark narrative
 email: fabrizio.tappero@gmail.com
 tel:
 
@@ -20,11 +20,11 @@ menu:
 # SEO Section
 
 # NOTE: Providing SEO information will make this website more searchable on the Internet.
-metadata-title: focusaway.com - making narrative content. Barcelona Spain
+metadata-title: focusaway.com - making narrative content, music video, drama, short film, horror. Barcelona Spain
 
 seo:
   share-title: Focus Away - visual content worth watching
-  description: 'speculative fiction, comedic provocative skits, dark narrative'
+  description: 'speculative fiction, provocative skit, dark narrative'
   rel-author: 'https://plus.google.com/u/0/107967937093458188059/'
   rel-publisher: 'https://plus.google.com/u/0/107967937093458188059/'
 
@@ -34,11 +34,11 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  I am passionate about improving my creativity with narrative visuals creation around
-  Barcelona, Spain. I fight the dificulties of and I enjoy the art of telling stories 
-  using images and sound.\\
+  I am passionate about improving my creativity with narrative visuals creation, and
+  I do that around Barcelona, Spain. I try to fight the dificulties and I enjoy the 
+  art of telling stories using images and sound.\\
   If you are interested in knowing more about me, have a look at my works.
-  If you are interested in collaborating, do not hesitate to shoot me an e-mail.
+  If you are interested in collaborating, do not hesitate to reach out.
 
 skills:
 - {name: Good Communication skills., value: '9'}
