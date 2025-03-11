@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Writing a Short Films
+title: Writing Interesting Short Films
 image: /posts-pics/making-short-films.jpg
 published: true
 ---
 ![opening screenshot]({{ site.url }}{{ page.image }})
+The classic three-act structure, while effective for feature-length films, often isn't the
+best fit for short films. Here's my perspective on this.
 
-The classic three-act structure, while effective for feature-length films, often isn't the best fit for short films. Here's my perspective on this:
-
-### Why the Three-act Structure May Not Work
+#### Why the Three-act Structure May Not Work
 
 **Time constraints:** Short films typically run 5-30 minutes, which doesn't allow enough time to fully develop three distinct acts.
 
@@ -16,7 +16,7 @@ The classic three-act structure, while effective for feature-length films, often
 
 **Lack of complexity:** Short films often focus on a single idea or moment, which doesn't require the elaborate setup and resolution of a three-act structure.
 
-### Alternative Approaches
+#### Alternative Approaches
 
 **Single-act structure:** Focus on a single, impactful moment or event, exploring it in depth.
 
@@ -28,7 +28,7 @@ The classic three-act structure, while effective for feature-length films, often
 
 **Twist ending:** Build tension throughout, leading to a surprising or revealing conclusion.
 
-### Key Considerations for Short Film Scripts
+#### Key Considerations for Short Film Scripts
 
 1. Start as late in the story as possible
 
@@ -40,7 +40,7 @@ The classic three-act structure, while effective for feature-length films, often
 
 Ultimately, the best structure for your short film will depend on your specific story and what you're trying to achieve. Don't be afraid to experiment with different approaches to find what works best for your narrative.
 
-### Laser Focus on Short Films
+#### Laser Focus on Short Films
 
 Here are some specific techniques for writing a compelling short film script, drawn from expert advice:
 
@@ -76,7 +76,7 @@ Give your audience something to feel by crafting relatable situations or univers
 
 8. Use Unique Concepts
 
-Stand out by choosing innovative ideas or fresh perspectives. Avoid clichés or trends and aim for originality in your story’s premise or execution6.
+Stand out by choosing innovative ideas or fresh perspectives. Avoid clichés or trends and aim for originality in your story's premise or execution6.
 
 9. Keep Formatting Professional
 
