@@ -84,7 +84,7 @@ Follow proper screenplay formatting rules to make your script easy to read and i
 
 By applying these techniques, you can create a concise, impactful short film script that resonates with audiences while showcasing your storytelling skills.
 
-#### Final Note
-Making good short film is hard and still a lot of good ones are made every year. *Validation* by Kurt Kuenne was made 16 years ago.
+#### A Final Note
+Making good short films is hard and still a lot of good ones are made every year. *Validation* by Kurt Kuenne was made 16 years ago.
 
 <iframe src="//www.youtube.com/embed/Cbk980jV7Ao?modestbranding=1&autohide=1&showinfo=0&controls=1" frameborder="0" width="400" height="220" allowfullscreen></iframe>
