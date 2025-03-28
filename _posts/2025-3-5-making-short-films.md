@@ -38,53 +38,51 @@ best fit for short films. Here's my perspective on this.
 
 4. Aim for a strong, memorable ending
 
-Ultimately, the best structure for your short film will depend on your specific story and what you're trying to achieve. Don't be afraid to experiment with different approaches to find what works best for your narrative.
-
-#### Laser Focus on Short Films
+Ultimately, the best structure for your short film will depend on your specific story and what you're trying to achieve. Don't be afraid to experiment with different approaches to find what works best for your narrative. Let's get more specific.
 
 Here are some specific techniques for writing a compelling short film script, drawn from expert advice:
 
-1. Focus on a Small, Specific Idea
+    Focus on a Small, Specific Idea
 
-Choose a concise and significant idea that fits the short format. Avoid complex, feature-length concepts that lead to "narrative cram" and instead focus on a single moment or event that resonates emotionally146.
+Choose a concise and significant idea that fits the short format. Avoid complex, feature-length concepts that lead to "narrative cram" and instead focus on a single moment or event that resonates emotionally.
 
-2. Craft Relatable, Complex Characters
+    Craft Relatable, Complex Characters
 
-Develop characters with clear, meaningful wants or goals. Their desires drive the story and create opportunities for both external action and internal transformation128.
+Develop characters with clear, meaningful wants or goals. Their desires drive the story and create opportunities for both external action and internal transformation.
 
-3. Start Strong and Keep It Short
+    Start Strong and Keep It Short
 
-Begin your story immediately with an inciting incident on page one. Avoid lengthy setups and get straight to the action or conflict124.
+Begin your story immediately with an inciting incident on page one. Avoid lengthy setups and get straight to the action or conflict.
 
-Aim for brevity—short films are most effective when they are truly short (under 30 minutes), as this increases their chances of being screened at festivals6.
+Aim for brevity—short films are most effective when they are truly short (under 30 minutes), as this increases their chances of being screened at festivals.
 
-4. Enter Late, Leave Early
+    Enter Late, Leave Early
 
-Write scenes that begin as close as possible to the moment of change and end immediately after it. This keeps the pacing tight and avoids unnecessary exposition12.
+Write scenes that begin as close as possible to the moment of change and end immediately after it. This keeps the pacing tight and avoids unnecessary exposition.
 
-5. Show, Don't Tell
+    Show, Don't Tell
 
-Use visual storytelling rather than dialogue to convey emotions, themes, and actions. Let the camera reveal critical details through meaningful actions or visuals rather than explicit explanations5.
+Use visual storytelling rather than dialogue to convey emotions, themes, and actions. Let the camera reveal critical details through meaningful actions or visuals rather than explicit explanations.
 
-6. Create a Pattern of Change
+    Create a Pattern of Change
 
-Design your story around moments of transformation—both external events and internal character arcs. These changes should build toward a satisfying climax that resolves the central conflict13.
+Design your story around moments of transformation—both external events and internal character arcs. These changes should build toward a satisfying climax that resolves the central conflict.
 
-7. Emphasize Emotional Connection
+    Emphasize Emotional Connection
 
-Give your audience something to feel by crafting relatable situations or universal themes. The emotional core of your story is what will make it memorable38.
+Give your audience something to feel by crafting relatable situations or universal themes. The emotional core of your story is what will make it memorable.
 
-8. Use Unique Concepts
+    Use Unique Concepts
 
-Stand out by choosing innovative ideas or fresh perspectives. Avoid clichés or trends and aim for originality in your story's premise or execution6.
+Stand out by choosing innovative ideas or fresh perspectives. Avoid clichés or trends and aim for originality in your story's premise or execution.
 
-9. Keep Formatting Professional
+    Keep Formatting Professional
 
-Follow proper screenplay formatting rules to make your script easy to read and industry-standard2.
+Follow proper screenplay formatting rules to make your script easy to read and industry-standard.
 
 By applying these techniques, you can create a concise, impactful short film script that resonates with audiences while showcasing your storytelling skills.
 
 #### A Final Note
-Making good short films is hard and still a lot of good ones are made every year. *Validation* by Kurt Kuenne was made 16 years ago.
+Making good short films is hard and still a lot of good ones are made every year. *Validation* by Kurt Kuenne was made 16 years ago. What do you tihnk about it? I certainly thing that a good camera is the last thing you need.
 
 <iframe src="//www.youtube.com/embed/Cbk980jV7Ao?modestbranding=1&autohide=1&showinfo=0&controls=1" frameborder="0" width="400" height="220" allowfullscreen></iframe>
