@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Video Making - Mobile World Congress Barcelona
+title: Content For Mobile World Congress Barcelona
 image: /posts-pics/mobile-world-congress.jpg
 published: true
 ---
