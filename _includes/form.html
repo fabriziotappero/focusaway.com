@@ -1,26 +1,38 @@
 <section>
 
-  <h3>Let's work together</h3>
+  <h3>Contact Me</h3>
 
 <!-- <form method="POST" action="//formspree.io/{{ site.data.settings.email }}"> -->
 <form method="POST" action="https://formsubmit.co/9b238879ac698d7a0ea808c1fe2fa0c7">
   <div class="contact-info-group">
 
-    <label><span>Your Name</span>
-    <input type="text" name="name"></label>
+    <label>
+      <span>Your Name</span>
+      <input type="text" name="name">
+    </label>
 
-    <label><span>Your Email</span>
-    <input type="email" name="_replyto"></label>
+    <label>
+      <span>Your Email</span>
+      <!-- <input type="email" name="_replyto"> -->
+      <input type="email" name="email" placeholder="Email Address">
+    </label>
 
   </div>
 
-  <label><span>Tell me about your project</span>
-  <textarea name="message"></textarea></label>
+  <label>
+    <span>Message Content</span>
+    <textarea name="message"></textarea>
+  </label>
 
   <div class="submit-wrap">
     <input type="submit" value="Send">
     <input type="text" name="_gotcha" style="display:none" />
   </div>
+
+  <!-- add to value: spammy pattern, banned term, phrase -->
+  <input type="hidden" name="_blacklist" value="resultleadgeneration.com">
+  
+  <input type="hidden" name="_next" value="https://focusaway.com/form-success/">
 
 </form>
 
