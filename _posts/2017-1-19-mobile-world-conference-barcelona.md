@@ -4,7 +4,7 @@ title: Content For Mobile World Congress Barcelona
 image: /posts-pics/mobile-world-congress.jpg
 published: true
 ---
-![opening screenshot]({{ site.url }}{{ page.image }})
+![opening screenshot](../{{ page.image }})
 The [GSMA Mobile World Congress (MWC)](https://www.mobileworldcongress.com/) is
 the World's largest exhibition for the mobile phone industry that takes place
 every year in February, or sometimes in March, in Barcelona, Spain.
@@ -52,7 +52,7 @@ We are based in Barcelona and we know how to create a corporate video. We at
 [Focus Away](http://www.focusaway.com) know where to get everything that is needed
 to visually create what you might need to launch your product.
 
-![Barcelona Mobile World Congress Office]({{ site.url }}/posts-pics/mwc-focusaway.jpg)
+![Barcelona Mobile World Congress Office](../posts-pics/mwc-focusaway.jpg)
 
 Specifically, we can:
 - Scout exclusive-looking office spaces and corporative environments
