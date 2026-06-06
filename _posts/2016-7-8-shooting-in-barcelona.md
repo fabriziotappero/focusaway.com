@@ -4,7 +4,7 @@ title: Video Shooting in Barcelona, Spain
 image: /posts-pics/barcelona-city.jpg
 published: true
 ---
-![opening screenshot]({{ site.url }}{{ page.image }})
+![opening screenshot](../{{ page.image }})
 Spain is one of best and most popular filming location in the World. In the 1960s, directors of the size of Sergio Leone did help Spain to become a popular destination
 for movie producers and filmmakers.
 
@@ -15,7 +15,7 @@ of food, the hospitality and the fact that Spain is a very safe place.
 
 Spain is the home of great films like Cohen's 2012 The Dictator, Justin Lin's blockbuster Fast and Furious 6, Game of Thrones from HBO in 2015, major TV drams like Emerald City starring Vincent D'Onofrio, Alejandro Amenabar thriller Regression in 2014, the mithical Doctor Who by BBC and an uncountable number of car commercials and TV commercials in general.
 
-![opening screenshot]({{ site.url }}/posts-pics/woody-allen-barcelona-film.jpg)
+![opening screenshot](../posts-pics/woody-allen-barcelona-film.jpg)
 
 #### Legalities
 Filming in Spain is easy. Please mind that villages, cities and regions have distinct rules regarding the use of public spaces in Spain.
