@@ -30,9 +30,9 @@
 <div class="posts">
   {% for post in site.posts %}
   <article class="post">
-    <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="../{{ post.url }}">{{ post.title }}</a></h2>
     <div class="post-date">{{ post.date | date: "%e %B %Y" }}</div>
-    <a href="{{ site.url }}{{ post.url }}">
+    <a href="../{{ post.url }}">
       <div class="entry">
         {{ post.excerpt | truncatewords: 40 }}
       </div>
