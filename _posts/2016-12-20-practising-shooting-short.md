@@ -4,7 +4,7 @@ title: Get Better by Shooting Short Films
 image: /posts-pics/barcelona-short-shooting.jpg
 published: true
 ---
-![opening screenshot]({{ site.url }}{{ page.image }})
+![opening screenshot](../{{ page.image }})
 A while ago I was reading and interview of [Peter Hurley](https://peterhurley.com/), an amazing
 headshot photographer from New York. Beside taking client pictures, making DVD courses and doing
 on-site shootings, Peter mentioned that he forces himself to work on about 50 self assignments a year
@@ -27,7 +27,7 @@ For many videomakers like me to adventure in creating short fictional films is a
 to perfect the crafting of video making. It is a fun experience where **a lot will go wrong** and where being
 able to deal with problems is probably the most valuable lesson that you can get from this kind of experience.
 
-![My Blackmagic camera]({{ site.url }}/posts-pics/BMCC.jpg)
+![My Blackmagic camera](../posts-pics/BMCC.jpg)
 
 Shooting video is a totally fun experience, but it gets even better when the tools that you use in
 your shooting are great tools. So, a little while ago, I decided to buy an amazing [Blackmagic Production 4K Cinema Camera](https://www.blackmagicdesign.com/products/cinemacameras) from Blackmagic Design.
