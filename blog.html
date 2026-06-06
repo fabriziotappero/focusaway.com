@@ -37,7 +37,7 @@
         {{ post.excerpt | truncatewords: 40 }}
       </div>
     </a>
-    <a href="{{ site.url }}{{ post.url }}" class="read-more">read more</a>
+    <a href="../{{ post.url }}" class="read-more">read more</a>
   </article>
   {% endfor %}
 </div>
