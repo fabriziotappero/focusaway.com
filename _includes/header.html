@@ -1,9 +1,9 @@
 <header id="header">
 
   <nav>
-    <!-- <a href="{{ site.url }}/blog/">Blog</a> -->
+    <!-- <a href="/blog/">Blog</a> -->
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.url }}/{{ item.url }}">{{ item.name }}</a>
+      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
 
