@@ -15,14 +15,14 @@
   {% if page.image %}
   <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
   {% else %}
-  <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share1.jpg" />
-  <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share2.jpg" />
-  <meta property="og:image" content="http://focusaway.com/assets/img/focusaway-share3.jpg" />
+  <meta property="og:image" content="../assets/img/focusaway-share1.jpg" />
+  <meta property="og:image" content="../assets/img/focusaway-share2.jpg" />
+  <meta property="og:image" content="../assets/img/focusaway-share3.jpg" />
   {% endif %}
   <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 300 }}" />
   <link rel="image_src" href="http://focusaway.com/assets/img/focusaway-share3.jpg" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/all.css">
+  <link rel="stylesheet" href="../assets/css/all.css">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
