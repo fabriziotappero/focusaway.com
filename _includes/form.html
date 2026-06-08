@@ -30,9 +30,18 @@
   <!-- add to value: spammy pattern, banned term, phrase -->
   <input type="hidden" name="_blacklist" value="resultleadgeneration, actionleadgeneration, ericjonesmyemail, Eric">
 
-  <input type="hidden" name="_next" value="{{ site.url }}/form-success/">
+  <!-- <input type="hidden" name="_next" value="{{ site.url }}/form-success/"> -->
   <input type="hidden" name="_template" value="table">
 
 </form>
+
+<script>
+document.querySelector('form').addEventListener('submit', function(e) {
+  var form = this;
+  setTimeout(function() {
+    window.location.href = '{{ site.url }}';
+  }, 2000); // 2s delay
+});
+</script>
 
 </section>
