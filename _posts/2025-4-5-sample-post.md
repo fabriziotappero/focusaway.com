@@ -1,8 +1,8 @@
 ---
-layout: do_not_post
+layout: post
 title: Writing Interesting Short Films
 image: /posts-pics/no-image.jpg
-published: true
+published: false
 ---
 ![opening screenshot](../{{ page.image }})
 
