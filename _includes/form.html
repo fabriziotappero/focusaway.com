@@ -2,35 +2,38 @@
 
   <h3>Contact Me</h3>
 
-  <form method="POST" action="https://formspree.io/f/mzdqraon">
-    <div class="contact-info-group">
 
-      <label>
-        <span>Your Name</span>
-        <input type="text" name="name" required>
-      </label>
-
-      <label>
-        <span>Your Email</span>
-        <input type="email" name="email" placeholder="Email Address" required>
-      </label>
-
-    </div>
+<form method="POST" action="https://formspree.io/f/mzdqraon"></form>
+  <div class="contact-info-group">
 
     <label>
-      <span>Message Content</span>
-      <textarea name="message" required></textarea>
+      <span>Your Name</span>
+      <input type="text" name="name">
     </label>
 
-    <div class="submit-wrap">
-      <input type="submit" value="Send">
-    </div>
+    <label>
+      <span>Your Email</span>
+      <input type="email" name="_replyto" placeholder="Email Address">
+    </label>
 
-    <input type="text" name="_gotcha" style="display:none">
-    <input type="hidden" name="_subject" value="New message from focusaway.com contact form">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="{{ site.url }}/form-success/">
-    <input type="hidden" name="_template" value="table">
-  </form>
+  </div>
+
+  <label>
+    <span>Message Content</span>
+    <textarea name="message"></textarea>
+  </label>
+
+  <div class="submit-wrap">
+    <input type="submit" value="Send">
+    <!-- <input type="text" name="_gotcha" style="display:none" /> -->
+  </div>
+
+  <!-- add to value: spammy pattern, banned term, phrase -->
+  <input type="hidden" name="_blacklist" value="resultleadgeneration, actionleadgeneration, ericjonesmyemail, Eric">
+
+  <input type="hidden" name="_next" value="{{ site.url }}/form-success/">
+  <input type="hidden" name="_template" value="table">
+
+</form>
 
 </section>
