@@ -33,11 +33,23 @@ function workBelt() {
     $('.thumb-container').hide(800);  // FT
     $('.work-container').show();
     $('html, body').animate({scrollTop: $('#work').offset().top},300);
+    window.location.hash = 'work-open';
   });
   $('.work-return').click(function() {
     //$('.work-belt').removeClass("slided");
-    $('.work-container').hide(800);
-    $('.thumb-container').show(800);  // FT
+    if (window.location.hash === '#work-open') {
+      history.back();
+    } else {
+      $('.work-container').hide(800);
+      $('.thumb-container').show(800);  // FT
+    }
+  });
+
+  $(window).on('hashchange', function() {
+    if (window.location.hash !== '#work-open') {
+      $('.work-container').hide(0);
+      $('.thumb-container').show(0);  // FT
+    }
   });
 
 }

@@ -8,7 +8,7 @@ To run this website locally:
     jekyll build 
     jekyll serve
 
-Do not forget to previously install all the needed tools:     
+Do not forget to previously install all the needed tools:   
 
     sudo apt-get install ruby-full
     sudo gem install github-pages
