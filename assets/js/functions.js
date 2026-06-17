@@ -14,12 +14,14 @@ function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {
 
 	    var target = $( $(this).attr('href') );
+	    var href = $(this).attr('href');
 
 	    if( target.length ) {
 	        event.preventDefault();
 	        $('html, body').animate({
 	            scrollTop: target.offset().top
 	        }, duration);
+	        history.pushState(null, null, href);
 	    }
 	});
 }
