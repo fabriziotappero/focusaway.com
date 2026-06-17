@@ -4,7 +4,7 @@ title: Writing Interesting Short Films
 image: /posts-pics/no-image.jpg
 published: false
 ---
-![opening screenshot](../{{ page.image }})
+![opening screenshot]({{ page.image }})
 
 Begin your article here
 

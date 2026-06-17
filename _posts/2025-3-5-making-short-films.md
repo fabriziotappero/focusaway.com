@@ -4,7 +4,7 @@ title: Writing Interesting Short Films
 image: /posts-pics/making-short-films.jpg
 published: true
 ---
-![opening screenshot](../{{ page.image }})
+![opening screenshot]({{ page.image }})
 The classic three-act structure, while effective for feature-length films, often isn't the
 best fit for short films. Here's my perspective on this.
 

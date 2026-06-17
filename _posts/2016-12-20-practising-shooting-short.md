@@ -4,7 +4,7 @@ title: Get Better by Shooting Short Films
 image: /posts-pics/barcelona-short-shooting.jpg
 published: true
 ---
-![opening screenshot](../{{ page.image }})
+![opening screenshot]({{ page.image }})
 A while ago I was reading and interview of [Peter Hurley](https://peterhurley.com/), an amazing
 headshot photographer from New York. Beside taking client pictures, making DVD courses and doing
 on-site shootings, Peter mentioned that he forces himself to work on about 50 self assignments a year

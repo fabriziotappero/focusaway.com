@@ -4,7 +4,7 @@ title: Content For Mobile World Congress Barcelona
 image: /posts-pics/mobile-world-congress.jpg
 published: true
 ---
-![opening screenshot](../{{ page.image }})
+![opening screenshot]({{ page.image }})
 The [GSMA Mobile World Congress (MWC)](https://www.mobileworldcongress.com/) is
 the World's largest exhibition for the mobile phone industry that takes place
 every year in February, or sometimes in March, in Barcelona, Spain.
