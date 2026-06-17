@@ -6,7 +6,7 @@ Note that this repo only has the branch gh-pages
 To run this website locally:
 
     jekyll build 
-    jekyll serve
+    jekyll serve --incremental
 
 Do not forget to previously install all the needed tools:   
 
